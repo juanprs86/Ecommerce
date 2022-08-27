@@ -13,7 +13,11 @@ a{
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     letter-spacing: .04em; 
+    margin-left: 20px;
 
+}
+a:hover{
+    color: rgb(247, 240, 240);
 }
 ul {
       display: flex;
@@ -27,12 +31,17 @@ li {
        text-decoration: none; 
    }
 .login-button {
-    margin-right: 200px;
+    border-radius: 15%;
+    margin-right: 50px;
     height: 30px;
     width: 50px;
     font-family: "Roboto", sans-serif;
     letter-spacing: .03em; 
     background-color: rgb(42, 141, 42, 0.9);
+}
+.login-button:hover{
+    background-color: chartreuse;
+    transition: 0.4s;
 }
 /*---BODY---*/
 body {
