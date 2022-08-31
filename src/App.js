@@ -1,7 +1,7 @@
 import './components/NavBar/navbar.css';
 import NavBar from './components/NavBar/navbar';
-import ItemListContainer from './components/NavBar/ItemListContainer';
-import ItemCount from './components/NavBar/ItemCount/ItemCount';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
       const onAdd = (qty) => {
