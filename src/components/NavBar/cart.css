@@ -1,10 +1,12 @@
-.cart{
-   
+.cart{  
     border-radius: 50%;
     height: 42px;
     width: 45px;
 }
-.cart:hover{
-    background-color: rgb(243, 162, 162);
-    transition: 0.3s;
+img{
+    opacity: 0.85;
 }
+img:hover{
+    opacity: 0.999;
+}
+   
